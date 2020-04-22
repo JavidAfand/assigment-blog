@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+body {
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog {
+    box-sizing: border-box;
+    border: 20px solid #bdc3c7;
+    padding: 20px 20px;
+    width: 45%;
+    height: 100vh;
+    margin: auto;
+}
+
+.blog-date { 
+    color: #3498db;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.blog-head {
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+.blog-essential {
+    border-left: 4px solid #bdc3c7;
+    padding-left: 5px;
+}
